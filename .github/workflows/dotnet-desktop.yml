@@ -1,0 +1,34 @@
+name: Run MSTest on Push
+
+# This specifies that the workflow should run on pushes to the branch
+on:
+  push:
+    branches:
+      - main       # Adjust to your branch name (e.g., 'main', 'dev', or any specific branch)
+
+jobs:
+  build:
+    runs-on: windows-latest  # This sets the environment to Windows to support MSTest
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up .NET SDK (choose the version that suits your project)
+    - name: Set up .NET SDK
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '7.0'   # Replace with your .NET version (e.g., 6.0, 7.0)
+
+    # Step 3: Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # Step 4: Build the project
+    - name: Build the project
+      run: dotnet build --configuration Release
+
+    # Step 5: Run MSTest
+    - name: Run MSTest
+      run: dotnet test --configuration Release --filter FullyQualifiedName~FirstTest
