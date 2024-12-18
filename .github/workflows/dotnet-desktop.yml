@@ -19,7 +19,7 @@ jobs:
     - name: Set up .NET SDK
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '7.0'   # Replace with your .NET version (e.g., 6.0, 7.0)
+        dotnet-version: '8.0'   # Replace with your .NET version (e.g., 6.0, 7.0)
 
     # Step 3: Restore dependencies
     - name: Restore dependencies
@@ -31,4 +31,4 @@ jobs:
 
     # Step 5: Run MSTest
     - name: Run MSTest
-      run: dotnet test --configuration Release --filter FullyQualifiedName~FirstTest
+      run: dotnet test
