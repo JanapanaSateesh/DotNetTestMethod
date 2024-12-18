@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Sateesh\\DotNet\\DataRow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7197F89-0E67-4C21-A536-9251CDE41B63}|DataRow\\DataRow.csproj|c:\\sateesh\\dotnet\\datarow\\datarow\\integrationtest\\getapiauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7197F89-0E67-4C21-A536-9251CDE41B63}|DataRow\\DataRow.csproj|solutionrelative:datarow\\integrationtest\\getapiauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7197F89-0E67-4C21-A536-9251CDE41B63}|DataRow\\DataRow.csproj|c:\\sateesh\\dotnet\\datarow\\datarow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7197F89-0E67-4C21-A536-9251CDE41B63}|DataRow\\DataRow.csproj|solutionrelative:datarow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 213,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GetAPIAuth.cs",
+              "DocumentMoniker": "C:\\Sateesh\\DotNet\\DataRow\\DataRow\\IntegrationTest\\GetAPIAuth.cs",
+              "RelativeDocumentMoniker": "DataRow\\IntegrationTest\\GetAPIAuth.cs",
+              "ToolTip": "C:\\Sateesh\\DotNet\\DataRow\\DataRow\\IntegrationTest\\GetAPIAuth.cs",
+              "RelativeToolTip": "DataRow\\IntegrationTest\\GetAPIAuth.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:58:42.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Sateesh\\DotNet\\DataRow\\DataRow\\Program.cs",
+              "RelativeDocumentMoniker": "DataRow\\Program.cs",
+              "ToolTip": "C:\\Sateesh\\DotNet\\DataRow\\DataRow\\Program.cs",
+              "RelativeToolTip": "DataRow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:56:13.124Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 187,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
