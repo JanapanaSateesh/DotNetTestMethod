@@ -1,0 +1,19 @@
+name: Print Hello on Push
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the 'main' branch
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest  # You can use any runner, here we use 'ubuntu-latest'
+
+    steps:
+    # Step 1: Checkout the repository (required for most workflows)
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Print 'Hello'
+    - name: Print Hello
+      run: echo "Hello"
