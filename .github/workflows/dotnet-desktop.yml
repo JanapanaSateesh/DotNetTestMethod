@@ -32,3 +32,10 @@ jobs:
     # Step 5: Run MSTest
     - name: Run MSTest
       run: dotnet test DataRow/DataRow.csproj --configuration Release
+
+    - name: Debug Environment
+      run: |
+        echo "GitHub Actions Workspace: $GITHUB_WORKSPACE"
+        echo "Current Directory: $(pwd)"
+        echo "List Files: $(ls)"
+
