@@ -2,11 +2,10 @@ name: Print Hello on Push
 
 on:
   push:
-    branches:
-      - main  # Trigger the workflow on push to the 'main' branch
+    branches: ["master"]
 
 jobs:
-  hello:
+  build:
     runs-on: ubuntu-latest  # You can use any runner, here we use 'ubuntu-latest'
 
     steps:
