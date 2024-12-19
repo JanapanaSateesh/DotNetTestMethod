@@ -3,8 +3,7 @@ name: Run MSTest on Push
 # This specifies that the workflow should run on pushes to the branch
 on:
   push:
-    branches:
-      - main       # Adjust to your branch name (e.g., 'main', 'dev', or any specific branch)
+    branches: ["master"]
 
 jobs:
   build:
@@ -22,8 +21,13 @@ jobs:
         dotnet-version: '8.0'   # Replace with your .NET version (e.g., 6.0, 7.0)
 
     # Step 3: Restore dependencies
-    - name: Print
-      run: echo "Hello Sateesh"
+    - name: Restore dependencies
+      run: dotnet restore
 
-   
+    # Step 4: Build the project
+    - name: Build the project
+      run: dotnet build --configuration Release
 
+    # Step 5: Run MSTest
+    - name: Run MSTest
+      run: dotnet test DataRow/DataRow.csproj --configuration Release
