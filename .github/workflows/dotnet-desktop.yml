@@ -31,4 +31,4 @@ jobs:
 
     # Step 5: Run MSTest
     - name: Run MSTest
-      run: dotnet test
+      run: dotnet test DataRow/DataRow.csproj --configuration Release
